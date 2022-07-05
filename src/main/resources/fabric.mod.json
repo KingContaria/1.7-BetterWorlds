@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "betterworlds",
+  "version": "${version}",
+  "name": "Better Worlds",
+  "description": "Replaces DesertHills with normal Deserts.",
+  "authors": [
+    "KingContaria"
+  ],
+  "contact": {
+    "sources": ""
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "mixins": [
+    "betterworlds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": "1.7.10"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kingcontaria.betterworlds.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BiomeDecoratorMixin",
+    "BiomeMixin",
+    "CaveCarverMixin",
+    "IngameHudMixin",
+    "NetherFortressStructureMixin",
+    "RavineCarverMixin",
+    "SurfaceChunkGeneratorMixin",
+    "TempleStructureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
